@@ -1,4 +1,4 @@
-package sz.udf;
+package sz.hive.udf;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class LeastTest 
+public class GreatestTest 
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class LeastTest
      *
      * @param testName name of the test case
      */
-    public LeastTest( String testName )
+    public GreatestTest( String testName )
     {
         super( testName );
     }
@@ -25,15 +25,15 @@ public class LeastTest
      */
     public static Test suite()
     {
-        return new TestSuite( LeastTest.class );
+        return new TestSuite( GreatestTest.class );
     }
 
     /**
      * Rigourous Test :-)
      */
-    public void testLeast()
+    public void testGreatest()
     {
-        //TODO: test the Least class well
+        //TODO: implement tests
         assertTrue( true );
     }
 }

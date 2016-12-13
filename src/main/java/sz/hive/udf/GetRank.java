@@ -3,7 +3,7 @@
  *
  */
 
-package sz.udf;
+package sz.hive.udf;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.hive.ql.exec.Description;
